@@ -3,6 +3,6 @@
   "plugins": ["unused-imports", "import"],
   "rules": {
     "unused-imports/no-unused-imports": "error",
-    "import/order": ["error", { "newlines-between": "always" }]
+    "import/order": [ "warn", {} ]
   }
 }

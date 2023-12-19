@@ -65,13 +65,13 @@ Siga as instruções abaixo para rodar o projeto em seu ambiente local:
 4. Instale as dependências do projeto executando o seguinte comando:
 
 ```bash
-  yarn install
+  npm install
 ```
 
 5. Após a conclusão da instalação das dependências, inicie o servidor de desenvolvimento local com o comando:
 
 ```bash
-  yarn dev
+  npm run dev
 ```
 
 6. O servidor local será iniciado e você poderá acessar o projeto no seu navegador através do seguinte endereço:

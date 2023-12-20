@@ -4,7 +4,7 @@ import HeroesList from "@/components/HeroesList";
 import { IHeroData } from "@/interfaces/heroes";
 
 async function getHeroesData(): Promise<{ data: IHeroData[] }> {
-  const res = await fetch(`${process.env.DOMAIN_ORIGIN}/api/heroes`);
+  const res = await fetch(`http://homem-aranha-no-aranhaverso.vercel.app/api/heroes`);
 
   if (!res.ok) {
     throw new Error("Falha ao buscar heróis");

@@ -20,5 +20,5 @@ async function getHeroesData(): Promise<{ data: IHeroData[] }> {
 export default async function Hero({ params: { id } }: IProps) {
   const res = await getHeroesData();
 
-  return <Carousel heroes={res.data} activeId={id} />;
+  return <Carousel heroes={[]} activeId={id} />;
 }

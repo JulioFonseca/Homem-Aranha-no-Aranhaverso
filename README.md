@@ -19,12 +19,6 @@ Este é o repositório do projeto Spider-Verse, desenvolvido durante uma live no
 
 - [Assets](https://drive.google.com/drive/folders/150O6eEhs8oGaHMMss7_CYG2jnI7yMugO?usp=sharing) (arquivos de imagens e efeitos sonoros)
 
-## 🌿 Branches
-
-- `main` projeto finalizado com todas as features implementadas durante a live;
-- `template` estrutura inicial para que você possa iniciar o projeto, contendo todos os assets, bibliotecas, estrutura de pastas e configurações de ESLint;
-- `live` parte do projeto já iniciado para o code-review em live, pronto para implementar as interações e animações do usuário com o projeto.
-
 ## 🎨 Protótipo do projeto
 
 [Clique aqui](https://www.figma.com/file/tdCIzlGKVdZJmKSaV99iDU/Landpage---SpiderVerse?type=design&node-id=0%3A1&t=rZMG8Ic2KXC3Dwfn-1) para ir ao protótipo do projeto no Figma.

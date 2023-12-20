@@ -8,20 +8,18 @@ async function getHeroesData(): Promise<{ data: IHeroData[] }> {
 
   if (!res.ok) {
     console.error("Erro na resposta da API:", res.status, res.statusText, process.env.DOMAIN_ORIGIN);
-    throw new Error("Falha ao buscar heróis na API");
+    throw new Error("Falha ao buscar heróis");
   }
 
   return res.json();
 }
 
-console.log("process.env.DOMAIN_ORIGIN", process.env.DOMAIN_ORIGIN);
-
 export default async function Home() {
-  // const res = await getHeroesData();
+  const res = await getHeroesData();
 
   return (
     <main className={styles.main}>
-      <HeroesList heroes={[]} />
+      <HeroesList heroes={res.data} />
     </main>
   );
 }

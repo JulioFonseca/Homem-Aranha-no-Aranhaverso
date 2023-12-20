@@ -8,7 +8,7 @@ interface IProps {
 }
 
 async function getHeroesData(): Promise<{ data: IHeroData[] }> {
-  const res = await fetch(`https://homem-aranha-no-aranhaverso.vercel.app/api/heroes`);
+  const res = await fetch(`/api/heroes`);
 
   if (!res.ok) {
     throw new Error("Falha ao buscar heróis");

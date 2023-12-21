@@ -16,13 +16,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body>
-        <header>
-          <Image
-            src="/icons/menu.svg"
-            alt="Menu options"
-            width={36}
-            height={25}
-          />
+        <header style={{ display: 'flex', justifyContent: 'center' }}>
           <Link href="/">
             <Image
               src="/spider-logo.svg"
@@ -31,7 +25,6 @@ export default function RootLayout({
               height={70}
             />
           </Link>
-          <Image src="/icons/user.svg" alt="Login" width={36} height={36} />
         </header>
         {children}
       </body>
